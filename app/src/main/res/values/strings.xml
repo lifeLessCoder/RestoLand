@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Take Away!</string>
+    <string name="order">Order</string>
+    <string name="coffee">Coffee</string>
+    <string name="dessert">Desserts</string>
+    <string name="ice_cream">Ice Cream</string>
+    <string name="snacks">Snacks</string>
+    <string name="default_summary">What are you waiting for? Choose ☻</string>
+</resources>
