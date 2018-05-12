@@ -3,6 +3,7 @@ package com.ankush.takeaway;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -48,6 +49,7 @@ public class CustomGridAdapter extends ArrayAdapter<Food>{
             Glide.with(mContext).load(currentFood.getmImageId()).into(imageView);
             titleTextView.setText(currentFood.getmTitle());
             summaryTextView.setText(mContext.getString(R.string.default_summary));
+            currentView.setBackgroundColor(ContextCompat.getColor(mContext, currentFood.getmColorId()));
         }
 
         return currentView;

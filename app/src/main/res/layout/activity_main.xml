@@ -3,9 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:background="#37474f">
+    android:background="@color/app_background">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -15,30 +14,18 @@
         android:id="@+id/container">
 
         <GridView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/gv"
-            android:numColumns="2"
-            android:horizontalSpacing="16dp"
-            android:verticalSpacing="16dp"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:scrollbars="none"/>
+            style="@style/grid_view_style"
+            android:id="@+id/gv" />
 
         <android.support.design.widget.FloatingActionButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:background="@color/colorAccent"
-            android:src="@drawable/ic_add"
+            style="@style/fab_style"
             android:id="@+id/fab"
-            app:fabSize="normal" />
+            app:fabSize="normal"/>
 
     </FrameLayout>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/order" />
+        style="@style/order_button_style"
+        android:id="@+id/button_order" />
 
 </LinearLayout>

@@ -9,17 +9,32 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".CoffeeActivity"
+            android:label="@string/coffee_order" />
+        <activity
+            android:name=".DessertActivity"
+            android:label="@string/dessert_order" />
+        <activity
+            android:name=".IceCreamActivity"
+            android:label="@string/icecream_order" />
+        <activity
+            android:name=".SnacksActivity"
+            android:label="@string/snacks_order" />
+        <activity android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CoffeeActivity" />
-        <activity android:name=".DessertActivity" />
-        <activity android:name=".IceCreamActivity" />
-        <activity android:name=".SnacksActivity"></activity>
     </application>
 
 </manifest>

@@ -8,4 +8,118 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- CheckBox style for each order card -->
+    <style name="check_box_style">
+        <item name="android:layout_marginTop">@dimen/margin_8</item>
+        <item name="android:paddingStart">@dimen/margin_8</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- ImageView style for each order card -->
+    <style name="image_view_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <!-- Stepper touch style for each card -->
+    <style name="stepper_touch_style">
+        <item name="android:layout_width">@dimen/hundred_dp</item>
+        <item name="android:layout_height">@dimen/forty_dp</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_marginBottom">@dimen/margin_16</item>
+        <item name="android:layout_marginEnd">@dimen/margin_16</item>
+    </style>
+
+    <!-- base price text view style -->
+    <style name="text_view_base_price_style">
+        <item name="android:layout_marginBottom">@dimen/margin_8</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">end</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:layout_marginEnd">@dimen/margin_16</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/base_price</item>
+    </style>
+
+    <!-- Style for the GridView -->
+    <style name="grid_view_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:numColumns">2</item>
+        <item name="android:horizontalSpacing">@dimen/margin_16</item>
+        <item name="android:verticalSpacing">@dimen/margin_16</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+    
+    <!-- FAB style -->
+    <style name="fab_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:src">@drawable/ic_add</item>
+    </style>
+
+    <!-- order button style -->
+    <style name="order_button_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/order</item>
+        <item name="android:onClick">order</item>
+        <item name="android:paddingStart">@dimen/margin_32</item>
+        <item name="android:paddingEnd">@dimen/margin_32</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_margin">@dimen/margin_16</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- Welcome screen text style -->
+    <style name="welcome_screen_text_style">
+        <item name="android:textColor">@android:color/primary_text_dark</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/welcome</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:fontFamily">serif-monospace</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- style for the tagline -->
+    <style name="welcome_screen_tagline_style">
+        <item name="android:textColor">@android:color/primary_text_dark</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/where_magic_happens</item>
+        <item name="android:fontFamily">serif-monospace</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingEnd">@dimen/margin_16</item>
+    </style>
+
+    <!-- style for the title of each food item -->
+    <style name="food_item_title_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/margin_40</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_marginTop">@dimen/margin_8</item>
+    </style>
 </resources>

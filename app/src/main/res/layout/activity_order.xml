@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/app_background">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_16">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_card1"
+                    style="@style/image_view_style"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/text_view_food_item_1"
+                            style="@style/food_item_title_style"/>
+
+                        <CheckBox
+                            style="@style/check_box_style"
+                            android:id="@+id/cb1_card1"
+                            tools:text="@string/whipped_cream" />
+
+                        <CheckBox
+                            style="@style/check_box_style"
+                            android:id="@+id/cb2_card1"
+                            tools:text="@string/chocolate" />
+
+                    </LinearLayout>
+
+                    <nl.dionsegijn.steppertouch.StepperTouch
+                        style="@style/stepper_touch_style"
+                        android:id="@+id/stepperTouch1" />
+
+                </LinearLayout>
+
+                <TextView
+                    style="@style/text_view_base_price_style"
+                    android:id="@+id/tv_price_card1" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_16"
+            android:layout_marginRight="@dimen/margin_16"
+            android:layout_marginBottom="@dimen/margin_16">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_card2"
+                    style="@style/image_view_style"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/text_view_food_item_2"
+                            style="@style/food_item_title_style" />
+
+                        <CheckBox
+                            android:id="@+id/cb1_card2"
+                            style="@style/check_box_style"
+                            tools:text="@string/whipped_cream" />
+
+                        <CheckBox
+                            style="@style/check_box_style"
+                            android:id="@+id/cb2_card2"
+                            tools:text="@string/chocolate" />
+
+                    </LinearLayout>
+                    <nl.dionsegijn.steppertouch.StepperTouch
+                        style="@style/stepper_touch_style"
+                        android:id="@+id/stepperTouch2" />
+
+                </LinearLayout>
+                <TextView
+                    style="@style/text_view_base_price_style"
+                    android:id="@+id/tv_price_card2" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

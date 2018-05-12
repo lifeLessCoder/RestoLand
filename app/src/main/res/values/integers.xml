@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="latte_base_price">30</integer>
+    <integer name="espresso_base_price">50</integer>
+    <integer name="whipped_cream_price">10</integer>
+    <integer name="chocolate_price">15</integer>
+</resources>

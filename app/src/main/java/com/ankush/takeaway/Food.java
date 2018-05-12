@@ -7,26 +7,38 @@ package com.ankush.takeaway;
 public class Food {
     // Resource Id of the image
     private int mImageId;
+    // Color of the card
+    private int mColorId;
     // Title of the food type
     private String mTitle;
-    // Summary of the food type
-    private String mSummary;
 
-    public Food(int mImageId, String mTitle, String mSummary) {
+
+    public Food(int mImageId, int mColorId, String mTitle) {
         this.mImageId = mImageId;
         this.mTitle = mTitle;
-        this.mSummary = mSummary;
+        this.mColorId = mColorId;
     }
 
     public int getmImageId() {
         return mImageId;
     }
 
+    public int getmColorId(){return mColorId;}
+
     public String getmTitle() {
         return mTitle;
     }
 
-    public String getmSummary() {
-        return mSummary;
+    public void setmImageId(int mImageId) {
+        this.mImageId = mImageId;
     }
+
+    public void setmColorId(int mColorId) {
+        this.mColorId = mColorId;
+    }
+
+    public void setmTitle(String mTitle) {
+        this.mTitle = mTitle;
+    }
+
 }

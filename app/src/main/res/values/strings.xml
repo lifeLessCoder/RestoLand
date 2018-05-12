@@ -1,9 +1,53 @@
 <resources>
-    <string name="app_name">Take Away!</string>
+    <string name="app_name">Resto♥Land</string>
     <string name="order">Order</string>
     <string name="coffee">Coffee</string>
     <string name="dessert">Desserts</string>
     <string name="ice_cream">Ice Cream</string>
     <string name="snacks">Snacks</string>
     <string name="default_summary">What are you waiting for? Choose ☻</string>
+    <string name="coffee_order">Coffee Order</string>
+    <string name="dessert_order">Dessert Order</string>
+    <string name="icecream_order">Ice-Cream Order</string>
+    <string name="snacks_order">Snacks Order</string>
+    <string name="base_price">Base price:</string>
+    <string name="whipped_cream">Whipped Cream (₹ %d)</string>
+    <string name="chocolate">Chocolate (₹ %d)</string>
+
+    <string name="quantity_key_1">quantity 1</string>
+    <string name="quantity_key_2">quantity 2</string>
+
+    <string name="cb1_key1">cb1_key1</string>
+    <string name="cb2_key1">cb2_key1</string>
+    <string name="cb1_key2">cb1_key2</string>
+    <string name="cb2_key2">cb2_key2</string>
+    <string name="summary_coffee">summary_coffee</string>
+
+    <string name="maple_syrup">Maple Syrup (₹ %d)</string>
+    <string name="raspberry_toppings">Raspberry Toppings (₹ %d)</string>
+    <string name="blueberry_toppings">Blueberry Toppings (₹ %d)</string>
+    <string name="cherry_toppings">Cherry Toppings (₹ %d)</string>
+    <string name="summary_dessert">summary_dessert</string>
+    <string name="strawberry_syrup">Strawberry Syrup (₹ %d)</string>
+    <string name="extra_oreo">Extra Oreo (₹ %d)</string>
+    <string name="waffles">Waffles (₹ %d)</string>
+    <string name="summary_ice_cream">summary_ice_cream</string>
+    <string name="extra_cheese">Extra Cheese (₹ %d)</string>
+    <string name="tomato">Tomato (₹ %d)</string>
+    <string name="extra_olives">Olives (₹ %d)</string>
+    <string name="cheese_burst">Cheese Burst (₹ %d)</string>
+    <string name="summary_snacks">summary_snacks</string>
+    <string name="my_email">ankushshetkar16@gmail.com</string>
+    <string name="email_subject">Order summary</string>
+    <string name="welcome">Welcome to Restoland</string>
+    <string name="where_magic_happens">Where magic happens!</string>
+    <string name="latte">Latte</string>
+    <string name="espresso">Espresso</string>
+    <string name="pancake">Pancake</string>
+    <string name="strawberry_roll">Strawberry Roll</string>
+    <string name="sundae">Sundae</string>
+    <string name="oreo_icecream">Oreo Icecream</string>
+    <string name="burger">Burger</string>
+    <string name="pizza">Pizza</string>
+
 </resources>
